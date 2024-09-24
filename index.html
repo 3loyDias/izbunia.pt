@@ -1,162 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
-        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/webp">
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
-        <link rel="icon" href="assets/images/favicon.png" type="image/webp">
-        <title>Linktree template</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- Snowfall Background Animation -->
-        <section class="animated-background">
-            <div id="stars1"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-        </section>
-        <!-- End of Snowfall Background Animation -->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Izbunia</title>
+  <link rel="stylesheet" href="./style.css">
 
-        <div class="min-h-full flex-h-center" id="background_div">
-            <input type="hidden" value="https://bio.link" id="app-url">
-                <input type="hidden" value="null" id="is-featured">
-                    <canvas id="bg-canvas" class="background-overlay"></canvas>
-                </input>
-            </input>
-
-            <div class="mt-48 page-full-wrap relative ">
-                <input type="hidden" value="creator-page" id="page-type">
-                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/images/logo.png" alt="[Your photo alt]"/>
-                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Your name</h2>
-                       
-                <div class="container">
-                    <button>
-                        Button
-                        <div class="star-1">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xml:space="preserve"
-                            version="1.1"
-                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                            viewBox="0 0 784.11 815.53"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                class="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div class="star-2">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xml:space="preserve"
-                            version="1.1"
-                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                            viewBox="0 0 784.11 815.53"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                class="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div class="star-3">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xml:space="preserve"
-                            version="1.1"
-                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                            viewBox="0 0 784.11 815.53"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                class="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div class="star-4">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xml:space="preserve"
-                            version="1.1"
-                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                            viewBox="0 0 784.11 815.53"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                class="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div class="star-5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xml:space="preserve"
-                            version="1.1"
-                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                            viewBox="0 0 784.11 815.53"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                class="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div class="star-6">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xml:space="preserve"
-                            version="1.1"
-                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                            viewBox="0 0 784.11 815.53"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                class="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                      </button>
-                      
-                </div>                                                                                
-            </div>
-        </div>
-    </body>
-
-    <!--
-    A different snowfall    
-    <script  src="assets/js/snowfall.js"></script>
-    -->
+</head>
+<body>
+<div class="container">
+  <h3>SITE EM CONSTRUÇÃO</h3>
+  <div class="bar">
+    <div class="progress"></div>
+  </div>
+</div>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
 </html>
