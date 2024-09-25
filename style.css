@@ -13,12 +13,35 @@ body {
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1,4em;
   font-weight: 100;
   letter-spacing: 1em;
   text-shadow: 0px 0px 20px #6EC3EC;
   color: #6EC3EC;
   margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #FFFFFF;
+  margin: 20px 0;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6EC3EC;
+  color: #222222;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #5BB2D6;
 }
 
 .container {
@@ -78,18 +101,27 @@ h3 {
 /* Responsividade para smartphones */
 @media (max-width: 600px) {
   h3 {
-    font-size: 6em;  /* Aumenta o texto */
+    font-size: 2.5em;
     letter-spacing: 0.7em;
   }
 
   .bar {
     width: 100%;
-    height: 0.5em;  /* Aumenta a altura da barra */
+    height: 0.5em;
   }
 
   .container {
     padding: 15px;
-    font-size: 20px;  /* Texto ligeiramente maior */
+    font-size: 20px;
     max-width: 100%;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  a.btn {
+    font-size: 1.2em;
+    padding: 12px 24px;
   }
 }
